@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from "./components/Home/home";
 import Error from "./components/Error/error";
 import Password from "./components/password/password"
-
+import Sidebar from "./components/Sidebar/sidebar"
 function App() {
   return (
    <div>
@@ -15,7 +15,9 @@ function App() {
         <Route path='/signup' component={SignUp} />
         <Route path='/login' component={LogIn} />
         <Route path='/forgotpassword' component={Password}/>
+        <Route path='/sidebar' component ={Sidebar} />
         <Route component={Error} /> 
+        
       </Switch>
    </div> 
    
