@@ -53,7 +53,7 @@ border: 1px solid rgba(232, 232, 232, 0.29);
    font-family: Roboto;
    font-style: normal;
    font-weight: normal;
-   font-size: 8px;
+   font-size: 13px;
    color: #7B7B7B;
 }
 .price {
@@ -107,10 +107,30 @@ border: 1px solid rgba(232, 232, 232, 0.29);
    font-family: Roboto;
    font-style: normal;
    font-weight: bold;
-   font-size: 10px;
+   font-size: 15px;
    color: #7B7B7B;
 }
 
+.button1{
+   width: 162px;
+   height: 30px;
+   margin:-200px 0px 0px -35px ;
+   background: #FF9900;
+   border-radius: 6px;
+   
+ }
+ .button1text{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 12px;
+   color: #FFFFFF;
+   text-align: center;
+   margin-top: 12px;
+   padding-top: 9px;
+ }
+ 
 
 
-  
+ 

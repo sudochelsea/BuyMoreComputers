@@ -17,12 +17,12 @@ function Cards() {
                 <img src={girl} className="customimg"/>
                 {/* ?<Card.Title> A girl who codes </Card.Title> */}
                 <Card.Title bsPrefix="customtitle"> 13 inch Apple Macbook Pro</Card.Title>
-                <Card.Text bsPrefix="span"> hi </Card.Text>    
+               
 
                 {/* <span className="span"></span>  */}
                 {/* <div className="pricetag">                      */}
 
-            <fieldset class="rating">
+            <fieldset class="rating1">
               <input type="radio" id="star5" name="rating" value="5" />
                   <label class = "full" for="star5" title="Awesome - 5 stars"></label>
               <input type="radio" id="star4half" name="rating" value="4 and a half" />
@@ -44,10 +44,15 @@ function Cards() {
               <input type="radio" id="starhalf" name="rating" value="half" />
                   <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
               </fieldset>
+                <br />
+                <Card.Text bsPrefix="span"> price </Card.Text> 
                 <p >$4.00</p>
-                <Button bsPrefix="custombutton">Add to Cart</Button>
-                {/* </div> */}
-               
+                <Button bsPrefix="custombutton">
+                   <p> Add to Cart</p>
+                    
+                </Button>
+
+                {/* </div> */}             
                 {/* <Image src="./../../images/software-girl.svg" bsPrefix="customcard" rounded /> */}
             </Card.Body>
         </Card> 

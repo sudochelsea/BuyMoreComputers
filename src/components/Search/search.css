@@ -1,0 +1,161 @@
+.searchbox{
+    position: absolute;
+        width: 534px;
+        height: 40px;
+        margin-left: 297px;
+        top: 71px;
+        background: rgba(232, 232, 232, 0.36);
+        border-radius: 8px;
+}
+
+/* span {
+    position: absolute;
+    margin-left: 8.25%;
+    margin-right: 8.37%;
+    margin-top: 8.25%;
+    margin-bottom: 8.43%;
+    font-size: 15px;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+    font-weight: 900; 
+    background: #7B7B7B;
+} */
+
+/* span::after { 
+    margin-left: 8.25%;
+    margin-right: 8.37%;
+    margin-top: 8.25%;
+    margin-bottom: 8.43%;
+    font-size: 15px;
+    font-family: "FontAwesome";
+    content: "\f066";
+     /* background: #7B7B7B;  
+  } */
+  .my-paragraph {
+    margin-left: 2.25%;
+    margin-right: 8.37%;
+    margin-top: 8.25%;
+    margin-bottom: 8.43%;
+  }
+  
+  .my-paragraph::before {
+    font-family: "FontAwesome";
+    content:  '\f002';
+    color: #7B7B7B;
+    font-size: 15px;
+  }
+  
+  /* .my-paragraph::after {
+    content: 'This is after!';
+    color: steelblue;
+  } */
+  .close{
+    width: 10.5px;
+    height: 11px;
+    margin-left: 440.75px;
+    margin-top: 97.25px;
+
+    
+  }
+
+  .close::before{
+    font-family: "FontAwesome";
+    content:  '\f00d';
+    color: #7B7B7B;
+    font-size: 15px;
+  }
+
+  .text{
+    
+    margin-left: 50px;
+    margin-top: -18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7B7B;
+  }
+
+  .text2{
+ 
+    
+    height: 11px;
+    left: 297px;
+    margin-top: 40px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 11px;
+/* identical to box height */
+  }
+
+  .sort{
+    margin-left: 297px;
+    margin-top: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    display:flex;
+    align-content:center;
+    /* identical to box height */
+
+
+  }
+
+  .text3{
+ 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 11px;
+/* identical to box height */
+  }
+
+  .button1{
+    width: 120px;
+    height: 36px;
+    margin-left:20px ;
+    background: #FF9900;
+    border-radius: 6px;
+    
+  }
+  .button1-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  
+
+  .button2{
+      width: 120px;
+      height: 36px;
+      margin-left:10px;
+      border: 0.5px solid #C4C4C4;
+      box-sizing: border-box;
+      border-radius: 6px;
+      font-weight: normal;
+      font-size: 10px;
+      color: #C4C4C4;
+  }
+
+  .button2-text{
+    color: #C4C4C4;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: center;
+    margin-top: 12px;
+  }

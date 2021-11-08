@@ -45,27 +45,7 @@ function Sidebar() {
                             <label for="horns">Gaming Consoles</label>
                             </div>   
                          </div>                     
-                        {/* <Form    className="form-check" >
-                            {['checkbox', ].map((type) => (
-                                <div key={`default-${type}`} className="mb-3" >
-                                <Form.Check 
-                                    type={type}
-                                    id={`default-${type}`}
-                                    label={`hi`}
-                                                                    
-                                />
-
-                                <Form.Check
-                                    disabled
-                                    type={type}
-                                    label={`disabled ${type}`}
-                                    id={`disabled-default-${type}`}
-                                    
-                                />
-                               </div>
-                            ))}
-                        </Form>  */}
-                     
+                       
                         
                     </div>
                     <div className={SidebarCss.filter2} >
@@ -73,18 +53,19 @@ function Sidebar() {
                     <div className={SidebarCss.price}>Price range</div>
 
                     <div className={SidebarCss.buttons}>
-                    <Button variant="light" size="sm" className="super-btn-xxl">Primary</Button>{' '}
-                    <Button variant="outline-dark"  className =' noHover'size="sm">Secondary</Button>{' '}
+                    <Button variant="light" size="sm" className="super-btn-xxl">Min</Button>{' '}
+                    <Button variant="outline-dark"  className =' noHover'size="sm">$ 8000 </Button>{' '}
                     </div>
                     </div>
 
 
                     <div className={SidebarCss.filter3} >
-                    <div className={SidebarCss.ratingtext}>rating</div>
+                    <div className={SidebarCss.ratingtext}>Rating</div>
                     <fieldset class="rating">
-{/*                  
-                     <input type="checkbox" id="horns" name="horns" />
-                        <label for="horns">hi</label> */}
+                    <div className="check" >
+                    <input  type="checkbox" id="stars" name="stars"  checked/>
+                    </div>    
+                           
                     <input type="radio" id="star5" name="rating" value="5" />
                         <label class = "full" for="star5" title="Awesome - 5 stars"></label>
                     <input type="radio" id="star4half" name="rating" value="4 and a half" />
@@ -105,9 +86,15 @@ function Sidebar() {
                         <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
                     <input type="radio" id="starhalf" name="rating" value="half" />
                         <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
-              </fieldset>
+                     </fieldset>
                     </div>
+
+                   
             </div>
+
+            <div className={SidebarCss.button1}>
+                     <p className={SidebarCss.button1text}> Relevance</p>         
+             </div>
         </div>
     )
 }
