@@ -7,17 +7,18 @@ function Searchbar(){
     return(
 
         <div>
-              <div  className="searchbox">
+              {/* <div  className="searchbox">
              
                   <span  class="my-paragraph"></span>
                   <span  class="close"></span>
                   <div className="text">Apple Macbook</div>
-                  <p className="text2"> search results for <b>"Apple Macbook"</b></p>
+                  
                 
-              </div>
+              </div> */}
               
              <div className="sort">
-               < p className="text3"> Sort</p>
+                 
+               <div className="text3"> Sort</div>
                <div className="button1">
                    <p className="button1-text"> Relevance</p>         
                 </div>

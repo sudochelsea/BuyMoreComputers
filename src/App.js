@@ -7,6 +7,7 @@ import Home from "./components/Home/home";
 import Error from "./components/Error/error";
 import Password from "./components/password/password"
 import Sidebar from "./components/Sidebar/sidebar"
+import Header from "./components/Header/header"
 function App() {
   return (
    <div>
@@ -16,6 +17,7 @@ function App() {
         <Route path='/login' component={LogIn} />
         <Route path='/forgotpassword' component={Password}/>
         <Route path='/sidebar' component ={Sidebar} />
+        <Route path='/header' component ={Header}/>
         <Route component={Error} /> 
         
       </Switch>

@@ -3,6 +3,7 @@ import React from "react";
 import Cards from "../Card/card";
 import Searchbar from "../Search/search.jsx";
 import Sidebar from "../Sidebar/sidebar.jsx";
+import Header from "../Header/header";
 
 function Home() {
 
@@ -10,9 +11,12 @@ function Home() {
 
         <div>
           <h1>
-            {/* <Cards></Cards> */}
+          
+           
+            <Header></Header>
+            <Searchbar></Searchbar>
             <Sidebar></Sidebar>
-            {/* <Searchbar></Searchbar> */}
+            <Cards></Cards>
           </h1>
         </div>
   )

@@ -2,12 +2,14 @@
    
     width: 256px;
     height: 300px;
-    margin-left: 297px;
-    margin-top: 195px;
+    /* margin-left: 30px; */
+    margin-left: 22px;
     background: white;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     border-radius: 6px;
+    margin-bottom: 22px;
+    
   }
 
 
@@ -106,7 +108,7 @@ h1 { font-size: 1.5em; margin: 10px; }
 .rating1 > input { display: none; } 
 .rating1 > label:before { 
   margin: 5px;
-  font-size: 1.9em;
+  font-size: 1.0em;
   font-family: FontAwesome;
   display: inline-block;
   content: "\f005";

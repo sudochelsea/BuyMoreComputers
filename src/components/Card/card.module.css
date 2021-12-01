@@ -1,5 +1,11 @@
-.customcard{
-    color: white;
-    background-color: green;
-    border-radius: 8px;
+
+  .container{
+
+    display: flex;
+    /* justify-content: center; */
+    margin-top: -319px;
+    flex-wrap: wrap ;
+    margin-left: 213px;
   }
+
+  
