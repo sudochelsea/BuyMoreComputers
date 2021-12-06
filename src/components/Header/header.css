@@ -78,18 +78,34 @@
     line-height: 11px;
 /* identical to box height */
   }
-.sessions{
+ .sessions{
     position: absolute;
-    left: 8.6%;
-    right: 8.48%;
-    top: 8.31%;
-    bottom: 8.31%;
-    background: #FFFFFF;
+    
+    margin-left: 8.6px;
+    margin-right: 8.48px;
+    top: 8.31px;
+    bottom: 8.31px;
+    background: #02020B;
+    
 }
 
 .sessions::before{
     font-family: "FontAwesome";
     content:  '\f2c0';
-    color: #7B7B7B;
+    color: #242323;
     font-size: 15px;
+} 
+
+.menu-items{
+  display:flex;
+  color:white;
+  margin-left: 1000px;
+  max-width: 400px;
+  margin-top: 18px;
+  font-size: 15px;
+  align-content:space-around;
+  gap:15px;
+  font-weight: 200;
+
+
 }

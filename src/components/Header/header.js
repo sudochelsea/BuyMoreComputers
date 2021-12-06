@@ -15,9 +15,13 @@ export default function Header(){
 
                 </div>
 
-                {/* <div className="sessions">
+                <div class="menu-items">    
+                    <div>Hello, Chelsea</div>
+                    <div>Your Orders</div>
+                    <div>my cart</div>
 
-                </div> */}
+                </div>
+
             </div>
         </div>
     )

@@ -93,7 +93,7 @@ function Sidebar() {
             </div>
 
             <div className={SidebarCss.button1}>
-                     <p className={SidebarCss.button1text}> Relevance</p>         
+                     <p className={SidebarCss.button1text}>Filter</p>         
              </div>
         </div>
     )

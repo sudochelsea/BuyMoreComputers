@@ -87,7 +87,7 @@ border: 1px solid rgba(232, 232, 232, 0.29);
 
 .filter3{
  
-   
+  
    width: 247px;
    height: 0px;
    margin: 89px 0px 0px -252px;
@@ -112,11 +112,17 @@ border: 1px solid rgba(232, 232, 232, 0.29);
 }
 
 .button1{
-   width: 162px;
+   /* width: 162px;
    height: 30px;
    margin:-200px 0px 0px -35px ;
    background: #FF9900;
-   border-radius: 6px;
+   border-radius: 6px; */
+
+   width: 162px;
+   height: 30px;
+   margin: -86px 0px 0px -32px;
+   background: #FF9900;
+   border-radius: 6px
    
  }
  .button1text{
@@ -124,12 +130,13 @@ border: 1px solid rgba(232, 232, 232, 0.29);
    font-style: normal;
    font-weight: 400;
    font-size: 13px;
-   line-height: 12px;
-   color: #9b9898;
+   line-height: 10px;
+   color: #ffff;
    text-align: center;
    margin-top: 12px;
    padding-top: 9px;
  }
+ 
  
 
 
