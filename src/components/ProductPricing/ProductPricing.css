@@ -1,0 +1,127 @@
+.pricingcard{
+
+        height: 400px;
+        width: 320px;
+        margin-left: 950px;
+        margin-top: 200px;
+        border-radius: 8px;
+        /* background-color:tomato; */
+        border: 1px solid #E8E8E8;
+        box-sizing: border-box;
+        border-radius: 8px;
+        
+}
+
+
+  .pricecon{
+          margin-top: 50px;
+          display:flex;
+          margin-left:20px;
+          padding:10px;
+          gap: 120px;
+          /* margin-right: 50px; */
+       
+  }
+
+  .pricecon2{
+        display:flex;
+        margin-left: 20px;
+        padding:5px;
+        gap: 100px;
+        font-family: roboto;
+        font-weight: 400px; 
+        font-size:  10px;     
+}
+
+.pricecon3{
+        display:flex;
+        margin-left: 20px;
+        padding:10px;
+        gap: 97px;
+        /* margin-right: 50px; */
+     
+}
+
+.pricecon4{
+        display:flex;
+        margin-left: 20px;
+        margin-top:20px;
+        gap: 0px;
+        /* margin-right: 50px; */
+        flex-wrap: nowrap;
+}
+
+.pricecon5 p{
+        display:flex;
+        margin-left: 20px;
+        margin-top:15px;
+        gap: 0px;
+        flex-wrap: nowrap;
+        color:#5F8B00;
+        font-size:20px;
+        /* margin-right: 50px; */
+       
+}
+
+.pricecon6{
+        display:flex;
+        margin-left: 20px;
+        margin-top:30px;
+        gap: 0px;
+        /* margin-right: 50px; */
+        flex-wrap: nowrap;
+        font-size: 10px;
+}
+
+.pricebutton1{
+        width: 280px;
+        height: 40px;
+        margin: -86px 0px 0px -32px;
+        background: #FF9900;
+        border-radius: 6px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top:0px;      
+
+}
+
+.pricebutton2{
+        width: 280px;
+        height: 40px;
+        margin: -86px 0px 0px -32px;
+        background: #F5DD09;
+        border-radius: 6px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top:0px;      
+
+}
+
+.button1text{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 10px;
+        color: #ffff;
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 15px;
+      }
+
+.button2text{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 10px;
+        color: #131921;
+        text-align: center;
+        margin-top: 8px;
+        padding-top: 15px;
+      }
+
+
+
+
+
